@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87DDB2DF1DF6513300C4223A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB2DE1DF6513300C4223A /* AppDelegate.swift */; };
+		87DDB2E11DF6513300C4223A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB2E01DF6513300C4223A /* ViewController.swift */; };
+		87DDB2E41DF6513300C4223A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB2E21DF6513300C4223A /* Main.storyboard */; };
+		87DDB2E61DF6513300C4223A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB2E51DF6513300C4223A /* Assets.xcassets */; };
+		87DDB2E91DF6513300C4223A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB2E71DF6513300C4223A /* LaunchScreen.storyboard */; };
+		87DDB2EE1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 87DDB2ED1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app */; };
+		87DDB2F41DF6513300C4223A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB2F21DF6513300C4223A /* Interface.storyboard */; };
+		87DDB2F61DF6513300C4223A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB2F51DF6513300C4223A /* Assets.xcassets */; };
+		87DDB2FD1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 87DDB2FC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		87DDB3021DF6513300C4223A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB3011DF6513300C4223A /* InterfaceController.swift */; };
+		87DDB3041DF6513300C4223A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDB3031DF6513300C4223A /* ExtensionDelegate.swift */; };
+		87DDB3061DF6513300C4223A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDB3051DF6513300C4223A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87DDB2EF1DF6513300C4223A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DDB2D31DF6513300C4223A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DDB2EC1DF6513300C4223A;
+			remoteInfo = "WKGestureRecognizerSample WatchKit App";
+		};
+		87DDB2FE1DF6513300C4223A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87DDB2D31DF6513300C4223A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87DDB2FB1DF6513300C4223A;
+			remoteInfo = "WKGestureRecognizerSample WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		87DDB30D1DF6513300C4223A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				87DDB2FD1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DDB3111DF6513300C4223A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				87DDB2EE1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		87DDB2DB1DF6513300C4223A /* WKGestureRecognizerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKGestureRecognizerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDB2DE1DF6513300C4223A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87DDB2E01DF6513300C4223A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87DDB2E31DF6513300C4223A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87DDB2E51DF6513300C4223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DDB2E81DF6513300C4223A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87DDB2EA1DF6513300C4223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DDB2ED1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WKGestureRecognizerSample WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDB2F31DF6513300C4223A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		87DDB2F51DF6513300C4223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DDB2F71DF6513300C4223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87DDB2FC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WKGestureRecognizerSample WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		87DDB3011DF6513300C4223A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		87DDB3031DF6513300C4223A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		87DDB3051DF6513300C4223A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87DDB3071DF6513300C4223A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87DDB2D81DF6513300C4223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DDB2F91DF6513300C4223A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87DDB2D21DF6513300C4223A = {
+			isa = PBXGroup;
+			children = (
+				87DDB2DD1DF6513300C4223A /* WKGestureRecognizerSample */,
+				87DDB2F11DF6513300C4223A /* WKGestureRecognizerSample WatchKit App */,
+				87DDB3001DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension */,
+				87DDB2DC1DF6513300C4223A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87DDB2DC1DF6513300C4223A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87DDB2DB1DF6513300C4223A /* WKGestureRecognizerSample.app */,
+				87DDB2ED1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app */,
+				87DDB2FC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87DDB2DD1DF6513300C4223A /* WKGestureRecognizerSample */ = {
+			isa = PBXGroup;
+			children = (
+				87DDB2DE1DF6513300C4223A /* AppDelegate.swift */,
+				87DDB2E01DF6513300C4223A /* ViewController.swift */,
+				87DDB2E21DF6513300C4223A /* Main.storyboard */,
+				87DDB2E51DF6513300C4223A /* Assets.xcassets */,
+				87DDB2E71DF6513300C4223A /* LaunchScreen.storyboard */,
+				87DDB2EA1DF6513300C4223A /* Info.plist */,
+			);
+			path = WKGestureRecognizerSample;
+			sourceTree = "<group>";
+		};
+		87DDB2F11DF6513300C4223A /* WKGestureRecognizerSample WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				87DDB2F21DF6513300C4223A /* Interface.storyboard */,
+				87DDB2F51DF6513300C4223A /* Assets.xcassets */,
+				87DDB2F71DF6513300C4223A /* Info.plist */,
+			);
+			path = "WKGestureRecognizerSample WatchKit App";
+			sourceTree = "<group>";
+		};
+		87DDB3001DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				87DDB3011DF6513300C4223A /* InterfaceController.swift */,
+				87DDB3031DF6513300C4223A /* ExtensionDelegate.swift */,
+				87DDB3051DF6513300C4223A /* Assets.xcassets */,
+				87DDB3071DF6513300C4223A /* Info.plist */,
+			);
+			path = "WKGestureRecognizerSample WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87DDB2DA1DF6513300C4223A /* WKGestureRecognizerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DDB3121DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample" */;
+			buildPhases = (
+				87DDB2D71DF6513300C4223A /* Sources */,
+				87DDB2D81DF6513300C4223A /* Frameworks */,
+				87DDB2D91DF6513300C4223A /* Resources */,
+				87DDB3111DF6513300C4223A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DDB2F01DF6513300C4223A /* PBXTargetDependency */,
+			);
+			name = WKGestureRecognizerSample;
+			productName = WKGestureRecognizerSample;
+			productReference = 87DDB2DB1DF6513300C4223A /* WKGestureRecognizerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87DDB2EC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DDB30E1DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample WatchKit App" */;
+			buildPhases = (
+				87DDB2EB1DF6513300C4223A /* Resources */,
+				87DDB30D1DF6513300C4223A /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87DDB2FF1DF6513300C4223A /* PBXTargetDependency */,
+			);
+			name = "WKGestureRecognizerSample WatchKit App";
+			productName = "WKGestureRecognizerSample WatchKit App";
+			productReference = 87DDB2ED1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		87DDB2FB1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87DDB30A1DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample WatchKit Extension" */;
+			buildPhases = (
+				87DDB2F81DF6513300C4223A /* Sources */,
+				87DDB2F91DF6513300C4223A /* Frameworks */,
+				87DDB2FA1DF6513300C4223A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WKGestureRecognizerSample WatchKit Extension";
+			productName = "WKGestureRecognizerSample WatchKit Extension";
+			productReference = 87DDB2FC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87DDB2D31DF6513300C4223A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = CrossBridge;
+				TargetAttributes = {
+					87DDB2DA1DF6513300C4223A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					87DDB2EC1DF6513300C4223A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					87DDB2FB1DF6513300C4223A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87DDB2D61DF6513300C4223A /* Build configuration list for PBXProject "WKGestureRecognizerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87DDB2D21DF6513300C4223A;
+			productRefGroup = 87DDB2DC1DF6513300C4223A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87DDB2DA1DF6513300C4223A /* WKGestureRecognizerSample */,
+				87DDB2EC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App */,
+				87DDB2FB1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87DDB2D91DF6513300C4223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDB2E91DF6513300C4223A /* LaunchScreen.storyboard in Resources */,
+				87DDB2E61DF6513300C4223A /* Assets.xcassets in Resources */,
+				87DDB2E41DF6513300C4223A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DDB2EB1DF6513300C4223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDB2F61DF6513300C4223A /* Assets.xcassets in Resources */,
+				87DDB2F41DF6513300C4223A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DDB2FA1DF6513300C4223A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDB3061DF6513300C4223A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87DDB2D71DF6513300C4223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDB2E11DF6513300C4223A /* ViewController.swift in Sources */,
+				87DDB2DF1DF6513300C4223A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87DDB2F81DF6513300C4223A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87DDB3041DF6513300C4223A /* ExtensionDelegate.swift in Sources */,
+				87DDB3021DF6513300C4223A /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87DDB2F01DF6513300C4223A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DDB2EC1DF6513300C4223A /* WKGestureRecognizerSample WatchKit App */;
+			targetProxy = 87DDB2EF1DF6513300C4223A /* PBXContainerItemProxy */;
+		};
+		87DDB2FF1DF6513300C4223A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87DDB2FB1DF6513300C4223A /* WKGestureRecognizerSample WatchKit Extension */;
+			targetProxy = 87DDB2FE1DF6513300C4223A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87DDB2E21DF6513300C4223A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DDB2E31DF6513300C4223A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87DDB2E71DF6513300C4223A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DDB2E81DF6513300C4223A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		87DDB2F21DF6513300C4223A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87DDB2F31DF6513300C4223A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87DDB3081DF6513300C4223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87DDB3091DF6513300C4223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87DDB30B1DF6513300C4223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WKGestureRecognizerSample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		87DDB30C1DF6513300C4223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "WKGestureRecognizerSample WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		87DDB30F1DF6513300C4223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = WKGestureRecognizerSample_WatchKit_Extension;
+				INFOPLIST_FILE = "WKGestureRecognizerSample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Debug;
+		};
+		87DDB3101DF6513300C4223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				IBSC_MODULE = WKGestureRecognizerSample_WatchKit_Extension;
+				INFOPLIST_FILE = "WKGestureRecognizerSample WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.1;
+			};
+			name = Release;
+		};
+		87DDB3131DF6513300C4223A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WKGestureRecognizerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87DDB3141DF6513300C4223A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = WKGestureRecognizerSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = biz.crossbridge.WKGestureRecognizerSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87DDB2D61DF6513300C4223A /* Build configuration list for PBXProject "WKGestureRecognizerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DDB3081DF6513300C4223A /* Debug */,
+				87DDB3091DF6513300C4223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DDB30A1DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DDB30B1DF6513300C4223A /* Debug */,
+				87DDB30C1DF6513300C4223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DDB30E1DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DDB30F1DF6513300C4223A /* Debug */,
+				87DDB3101DF6513300C4223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87DDB3121DF6513300C4223A /* Build configuration list for PBXNativeTarget "WKGestureRecognizerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87DDB3131DF6513300C4223A /* Debug */,
+				87DDB3141DF6513300C4223A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87DDB2D31DF6513300C4223A /* Project object */;
+}
